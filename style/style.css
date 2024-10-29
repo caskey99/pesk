@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+p {
+    font-family: "Dela Gothic One";
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    padding: 19px 16px 48px 18px;
+}
+
+.main__footer {
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+
+.main__title {
+    position: relative;
+    width: 177px;
+    height: 26px;
+    margin: 7px 0 0 31px;
+}
+
+.main__title_text {
+    position: absolute;
+    z-index: 100;
+}
+
+.main__title_num {
+    color: #ffffff;
+    margin-left: 250px;
+}
+
+.main__title_num {
+    color: #ffffff;
+    opacity: 0.4;
+    /* margin-top: 16px; */
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+
+.main__human {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main__human_star {
+    position: absolute;
+    right: 40px;
+    bottom: 500px;
+}
+
+.main__title_line {
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    margin-left: -5px;
+    margin-top: 5px;
+    /* margin-top: 5px; */
+}
+
+
+
+.content {
+    /* height: 756px; */
+    height: 100%;
+    background-color: #0048FC;
+    border-radius: 10px;
+
+}
+
+.content__header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content__logo {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.content__msg {
+    margin-top: 2.3%;
+    margin-left: 1%;
+}
+
+.content__message {
+    margin-top: 5%;
+    margin-left: 2%;
+    /* color: #000000; */
+    background-color: #fff;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 32px 39px;
+    border-radius: 15px;
+}
+
+
+.content__message_title {
+    color: #000000;
+    font-size: 30px;
+}
+
+.content__message_text {
+    text-align: center;
+    color: #0048FC;
+    font-size: 60px;
+}
+
+
+.content__message_star1 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: -18px;
+}
+
+.content__message_star2 {
+    width: 23px;
+    height: 23px;
+}
+
+.content__message_star2 {
+
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 517px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
