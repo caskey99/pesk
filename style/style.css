@@ -42,10 +42,10 @@ p {
     z-index: 100;
 }
 
-.main__title_num {
+/* .main__title_num {
     color: #ffffff;
     margin-left: 250px;
-}
+} */
 
 .main__title_num {
     color: #ffffff;
@@ -53,7 +53,7 @@ p {
     /* margin-top: 16px; */
     display: flex;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 43%;
     
 }
 
@@ -61,12 +61,21 @@ p {
     position: absolute;
     bottom: 0;
     right: 0;
+    /* width: 517px;
+    height: 721px; */
+    
+    width: 450px;
+    height: 627.5px;
+    /* width: 300x;
+    height: 418px; */
 }
 
 .main__human_star {
     position: absolute;
-    right: 40px;
-    bottom: 500px;
+    right: 30px;
+    bottom: 420px;
+    width: 40px;
+    height: 40.7px;
 }
 
 .main__title_line {
@@ -78,6 +87,12 @@ p {
     /* margin-top: 5px; */
 }
 
+.main__title_star {
+    position: absolute;
+    margin-left: 383px;
+    margin-top: -50px;
+}
+
 
 
 .content {
@@ -86,7 +101,7 @@ p {
     background-color: #0048FC;
     border-radius: 10px;
 
-}
+}  
 
 .content__header {
     display: flex;
@@ -94,23 +109,34 @@ p {
 }
 
 .content__logo {
-    margin-top: 1%;
-    margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 4%;
+
+    /* width: 459px;
+    height: 133px; */
+    width: 415px;
+    height: 120px;
 }
 
 .content__msg {
-    margin-top: 2.3%;
-    margin-left: 1%;
+    margin-top: 4%;
+    margin-left: 5%;
+    /* width: 432px;
+    height: 291px; */
+    width: 400px;
+    height: 269px;
+    /* width: 250px;
+    height: 168px; */
 }
 
 .content__message {
-    margin-top: 5%;
-    margin-left: 2%;
+    margin-top: -25px;
+    margin-left: 4%;
     /* color: #000000; */
     background-color: #fff;
     max-width: 50%;
     max-height: 50%;
-    padding: 32px 39px;
+    padding: 32px 39px 39px 39px;
     border-radius: 15px;
 }
 
@@ -121,24 +147,35 @@ p {
 }
 
 .content__message_text {
+    margin-top: 15px;
     text-align: center;
     color: #0048FC;
-    font-size: 60px;
+    font-size: 42px;
 }
 
 
 .content__message_star1 {
     position: absolute;
-    margin-top: -170px;
-    margin-left: -18px;
+    margin-top: -130px;
+    margin-left: -19px;
+    width: 45px;
+    height: 45.9px;
 }
 
 .content__message_star2 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 29px;
     width: 23px;
     height: 23px;
 }
 
-.content__message_star2 {
+.content__message_star3 {
+    position: absolute;
+    margin-left: 573px;
+    margin-top: -157px;
+    width: 23px;
+    height: 23px;
 
 }
 
